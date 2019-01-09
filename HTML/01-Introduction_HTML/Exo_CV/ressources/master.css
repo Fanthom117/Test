@@ -1,0 +1,15 @@
+/*******************************
+Feuille de styles TP HTML et PHP
+RIBEIRO.F Simon
+*******************************/
+
+body{background-image: url(ressources/cafe.jpg);}
+
+header{text-align: center;}
+
+h1{color: blue;}
+q{color: lightblue;}
+
+h2{text-decoration: underline;}
+
+.alg{line-height: 0.8;}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      h1{text-align:center;}
+      h5{text-align:center;}
+    </style>
+    <title>Création d'un formulaire HTML5</title>
+  </head>
+  <body>
+    <h1>Nous lançons une grande enquête sur les anciens stagiaires</h1>
+    <h5>merci de nous répondre</h5>
+    <form action="Ex2.html" method="get"><br>
+      <input type="text" name="nom" placeholder="Votre nom..." required>*<br><br>
+      <input type="text" name="prenom" placeholder="Votre prénom..." required>*<br><br>
+      <input type="date" name="date" placeholder="Votre date de naissance..." required>*<br><br>
+      <input type="text" name="adresse" placeholder="Votre adresse..." required>*<br><br>
+      <input type="text" name="ville" placeholder="Votre ville..." required>*<br><br>
+      <input type="text" name="code" maxlength="5" placeholder="Votre code postal..." required>*<br><br>
+      <input type="email" name="mail" placeholder="Votre e-mail..." required>*<br><br>
+      <input type="radio" name="sexe" checked="checked"> Homme
+      <input type="radio" name="sexe"> Femme
+      *<br><br>
+      <select name="metier">
+        <option value="dev">Développeur</option>
+        <option value="analyste">Analyste</option>
+        <option value="chef">Chef de projet</option>
+        <option value="autre">Autre</option>
+      </select>*<br><br>
+      <input type="text" name="Rautre" placeholder="Si Autre, précisez..."><br><br>
+      <select name="gain">
+        <option value="1k"><1000€</option>
+        <option value="1k1k5">>1000€ et <1500€</option>
+        <option value="1k52k">>1500€ et <2000€</option>
+        <option value="2k">>2000€</option>
+      </select>*<br><br>
+      <input type="text" name="annee" maxlength="4" placeholder="Année du stage AFPA..." required>*<br><br>
+      <textarea name="com" rows="8" cols="80" placeholder="Commentaire..."></textarea>
+      <h6>*: mention obligatoire</h6>
+      <h2>Merci d'avoir répondu au questionnaire!</h2>
+      <input type="submit" name="valid" value="Envoyer">
+      <input type="reset" name="annule" value="Annuler">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+/*******************************
+Feuille de styles TP HTML et PHP
+RIBEIRO.F Simon
+*******************************/
+
+body
+{
+	background-image: url("Images/afpa.gif");
+}
+
+h1
+{
+	text-align: center;
+	margin-top: 200px;
+}
+
+h2
+{
+	text-align: center;
+}
+
+footer
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+hr
+{
+	width: 100%;
+}
